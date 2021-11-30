@@ -1,0 +1,10 @@
+---
+
+#ansible -m copy -a "src=../master.gitconfig dest=~/.gitconfig" localhost
+
+- name: gitconfig from master.gitconfig
+  hosts: localhost
+  tasks:
+  - copy:
+      src: "../master.gitconfig"
+      dest: "~/.gitconfig"

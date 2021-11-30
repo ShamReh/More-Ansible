@@ -1,0 +1,12 @@
+[host]
+ansible-host-1 ansible_host=34.248.144.5 ansible_connection=local ansible_user=ec2-user
+
+[servers]
+ansible-target-1 ansible_host=3.250.153.114 ansible_connection=ssh ansible_user=ubuntu
+ansible-target-2 ansible_host=54.170.101.215 ansible_connection=ssh ansible_user=ec2-user
+
+[yum]
+ansible-target-2 ansible_host=54.170.101.215 ansible_connection=ssh ansible_user=ec2-user
+
+[apt]
+ansible-target-1 ansible_host=3.250.153.114 ansible_connection=ssh ansible_user=ubuntu

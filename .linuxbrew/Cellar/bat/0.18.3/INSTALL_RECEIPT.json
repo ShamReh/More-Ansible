@@ -1,0 +1,48 @@
+{
+  "homebrew_version": "3.2.8-53-gd14fc2d",
+  "used_options": [
+
+  ],
+  "unused_options": [
+
+  ],
+  "built_as_bottle": true,
+  "poured_from_bottle": true,
+  "installed_as_dependency": false,
+  "installed_on_request": true,
+  "changed_files": [
+
+  ],
+  "time": 1638200422,
+  "source_modified_time": 1629647232,
+  "compiler": "gcc-5",
+  "aliases": [
+
+  ],
+  "runtime_dependencies": [
+    {
+      "full_name": "zlib",
+      "version": "1.2.11",
+      "declared_directly": true
+    }
+  ],
+  "source": {
+    "spec": "stable",
+    "versions": {
+      "stable": "0.18.3",
+      "head": null,
+      "version_scheme": 0
+    },
+    "path": "/home/ec2-user/.linuxbrew/Homebrew/Library/Taps/homebrew/homebrew-core/Formula/bat.rb",
+    "tap_git_head": "c15826a0d1c6f8ffb35470db2c45ad3992340f3f",
+    "tap": "homebrew/core"
+  },
+  "arch": "x86_64",
+  "built_on": {
+    "os": "Linux",
+    "os_version": "Ubuntu 16.04.7",
+    "cpu_family": "skylake",
+    "glibc_version": "2.23",
+    "oldest_cpu_family": "core2"
+  }
+}

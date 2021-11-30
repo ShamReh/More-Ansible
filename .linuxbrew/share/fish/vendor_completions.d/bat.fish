@@ -1,0 +1,1 @@
+../../../Cellar/bat/0.18.3/share/fish/vendor_completions.d/bat.fish
